@@ -1,0 +1,14 @@
+{
+  "watch": [
+    "src/server",
+    "dist/server/server.js",
+    "nodemon.json",
+    "package.json",
+    "webpack-dev.server.config.js",
+    "webpack.config.js",
+    "webpack-dev.config.js"
+  ],
+  "ignore": [
+    "src"
+  ]
+}

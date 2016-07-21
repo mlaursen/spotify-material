@@ -1,0 +1,6 @@
+{
+  "subdomain": "",
+  "port": 8080,
+  "domain": "localhost",
+  "protocol": "http"
+}

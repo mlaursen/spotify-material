@@ -1,0 +1,36 @@
+@import '~normalize.css/normalize.css';
+@import '~md-helpers';
+
+//$md-light-theme: false;
+$md-primary-color: $md-light-green-500;
+$md-primary-color-hue-1: $md-light-green-200;
+$md-secondary-color: $md-red-a-400;
+$md-secondary-color-hue-1: $md-red-a-100;
+$md-transition-time: .6s;
+
+@import '~md-scss';
+
+//.md-navigation-drawer,
+//.md-navigation-drawer-toolbar {
+//  background: $md-card-color;
+//}
+
+.md-drawer-header {
+  //color: $md-dark-theme-secondary-text-color;
+
+  .md-icon-btn {
+    float: right;
+  }
+}
+
+.md-navigation-drawer-toolbar .md-title {
+  text-transform: capitalize;
+}
+
+.md-card-list {
+  justify-content: space-around;
+
+  .md-card {
+    width: auto;
+  }
+}
